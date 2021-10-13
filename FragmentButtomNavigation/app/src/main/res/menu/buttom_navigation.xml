@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    //Menambahkan Item Navigasi menu Chats,Calls dan Status
+    <item
+        android:id="@+id/nav_chats"
+        android:icon="@drawable/chats"
+        android:title="Chats"/>
+
+    <item
+        android:id="@+id/nav_status"
+        android:icon="@drawable/history"
+        android:title="Status"
+        />
+
+    <item
+        android:id="@+id/nav_calls"
+        android:icon="@drawable/calls"
+        android:title="Calls"
+        />
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/search"
+        android:title="Search"/>
+</menu>
